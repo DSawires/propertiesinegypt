@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   title: "Properties in Egypt | Premium Real Estate & Investments",
   description: "Discover exclusive properties, luxury homes, and investment opportunities in Egypt. Perfect for Egyptians and Gulf investors looking for second homes.",
   keywords: ["Properties in Egypt", "Egypt Real Estate", "Investment Properties Egypt", "Homes in Egypt", "Luxury Real Estate Egypt"],
+  alternates: {
+    canonical: "https://propertiesinegypt.com",
+    languages: {
+      "en-US": "https://propertiesinegypt.com",
+    },
+  },
   openGraph: {
     title: "Properties in Egypt | Premium Real Estate",
     description: "Discover exclusive properties, luxury homes, and investment opportunities in Egypt.",
