@@ -124,23 +124,23 @@ export default function Home() {
               </ul>
             </div>
             <div className="contact-form-wrapper">
-              <form className="lead-form">
+              <form className="lead-form" action="https://formspree.io/f/mgonggge" method="POST">
                 <h3>Request a Consultation</h3>
                 <div className="form-group">
                   <label htmlFor="name">Full Name</label>
-                  <input type="text" id="name" placeholder="John Doe" required />
+                  <input type="text" id="name" name="name" placeholder="John Doe" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="email">Email Address</label>
-                  <input type="email" id="email" placeholder="john@example.com" required />
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="phone">Phone Number</label>
-                  <input type="tel" id="phone" placeholder="+971 50 123 4567" required />
+                  <input type="tel" id="phone" name="phone" placeholder="+971 50 123 4567" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="interest">Primary Interest</label>
-                  <select id="interest" required>
+                  <select id="interest" name="interest" required>
                     <option value="">Select an option...</option>
                     <option value="investment">Investment Property</option>
                     <option value="second_home">Second Home / Vacation</option>
