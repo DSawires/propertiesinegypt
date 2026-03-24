@@ -37,6 +37,36 @@ export default function Home() {
           </div>
         </section>
 
+        {/* WHY INVEST IN EGYPT SECTION */}
+        <section id="why-invest" style={{ padding: 'var(--space-24) 0', backgroundColor: 'var(--color-surface)' }}>
+          <div className="container">
+            <div className="section-header text-center">
+              <h2 className="section-title">Why Invest in Egyptian Real Estate?</h2>
+              <p className="section-desc">A booming market offering unprecedented returns, luxury living, and strategic growth.</p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--space-8)' }}>
+              <article style={{ padding: 'var(--space-6)', backgroundColor: 'var(--color-bg)', borderRadius: 'var(--radius-lg)' }}>
+                <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--space-3)' }}>High Return on Investment (ROI)</h3>
+                <p style={{ color: 'var(--color-text-light)' }}>
+                  Egypt’s real estate sector has historically proven to be one of the most resilient and profitable markets in the MENA region. With ongoing mega-projects like the New Administrative Capital and the continuous development of the North Coast, property values are experiencing rapid appreciation. Investors from the Gulf and Egyptian expatriates are seeing exceptional capital gains and strong rental yields, making it an ideal hedge against inflation.
+                </p>
+              </article>
+              <article style={{ padding: 'var(--space-6)', backgroundColor: 'var(--color-bg)', borderRadius: 'var(--radius-lg)' }}>
+                <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--space-3)' }}>Strategic Mega-Developments</h3>
+                <p style={{ color: 'var(--color-text-light)' }}>
+                  The expansion of urban infrastructure is staggering. The government and top-tier private developers are collaborating to build smart cities, advanced road networks, and world-class amenities. From luxury waterfront properties on the Red Sea and North Coast to high-end residential compounds in New Cairo and Sheikh Zayed, the diversity of premium developments guarantees an option for every investment portfolio.
+                </p>
+              </article>
+              <article style={{ padding: 'var(--space-6)', backgroundColor: 'var(--color-bg)', borderRadius: 'var(--radius-lg)' }}>
+                <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--space-3)' }}>Unmatched Lifestyle & Heritage</h3>
+                <p style={{ color: 'var(--color-text-light)' }}>
+                  Beyond financial returns, buying a second home in Egypt means investing in a lifestyle. Enjoy year-round sunshine, pristine beaches, and a rich cultural heritage that dates back millennia. For Gulf residents and expats, Egypt offers a familiar yet distinctly vibrant atmosphere, boasting world-class dining, elite international schools, and premium healthcare facilities seamlessly integrated into these new luxury communities.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
         {/* FEATURED PROPERTIES SECTION */}
         <section id="featured" className="properties-section">
           <div className="container">
@@ -107,6 +137,24 @@ export default function Home() {
                   </div>
                 </div>
               </article>
+            </div>
+          </div>
+        </section>
+
+        {/* ABOUT US / EXPERTISE SECTION */}
+        <section id="about" style={{ padding: 'var(--space-24) 0', backgroundColor: 'var(--color-surface)', borderTop: '1px solid var(--color-accent)' }}>
+          <div className="container">
+            <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
+              <h2 className="section-title">Your Trusted Real Estate Partners</h2>
+              <p style={{ fontSize: '1.125rem', color: 'var(--color-text-light)', marginBottom: 'var(--space-6)' }}>
+                Navigating the international real estate market requires local expertise, transparency, and a dedicated team. At <strong className="text-gold">Properties in Egypt</strong>, we specialize in curating exclusive property portfolios for Egyptians living abroad and Gulf-based investors.
+              </p>
+              <p style={{ fontSize: '1.125rem', color: 'var(--color-text-light)', marginBottom: 'var(--space-6)' }}>
+                Our proprietary partnerships with Egypt's top-tier developers—such as Emaar Misr, SODIC, Palm Hills, and Talaat Moustafa Group—ensure our clients receive priority access to off-market launches and premium units before they reach the general public. We handle everything end-to-end: from initial virtual property tours and rigorous legal due diligence to securing the best payment plans and finalizing the contracts.
+              </p>
+              <p style={{ fontSize: '1.125rem', color: 'var(--color-text-light)' }}>
+                Whether you are seeking a luxurious summer retreat on the Mediterranean coast, a high-yield commercial asset in the New Capital, or a legacy residential home in New Cairo, our advisory team is committed to securing your financial future and lifestyle dreams.
+              </p>
             </div>
           </div>
         </section>
